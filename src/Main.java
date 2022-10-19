@@ -14,6 +14,10 @@ public class Main {
 		double change = paid - price;
 		System.out.println("Your change is $"+change);
 		//Break the change into all denominations:
+		//how many 100s in the change
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
 		//$100,$50,$20,$10,$5,$2,$1,$0.25,$0.10,$0.05
 		//As a bonus, make your project round to the nearest $0.05 like actual stores.
 		
