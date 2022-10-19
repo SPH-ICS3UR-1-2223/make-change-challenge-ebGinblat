@@ -18,6 +18,33 @@ public class Main {
 		int num100 = (int)( change/100);
 		System.out.println("You get "+num100+" x $100");
 		change = change-num100*100;
+		int num50 = (int)( change/50);
+		System.out.println("You get "+num50+" x $50");
+		change = change-num50*50;
+		int num20 = (int)( change/20);
+		System.out.println("You get "+num20+" x $20");
+		change = change-num20*20;
+		int num10 = (int)( change/10);
+		System.out.println("You get "+num10+" x $10");
+		change = change-num10*10;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
+		int num100 = (int)( change/100);
+		System.out.println("You get "+num100+" x $100");
+		change = change-num100*100;
 		//$100,$50,$20,$10,$5,$2,$1,$0.25,$0.10,$0.05
 		//As a bonus, make your project round to the nearest $0.05 like actual stores.
 		
